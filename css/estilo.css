@@ -1,0 +1,103 @@
+
+       body{
+    background: linear-gradient(to bottom, #F4FFF8, #E8F5E9);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Barra superior */
+.barra-superior{
+    height:15px;
+    background:#4CAF50;
+    border-radius:20px;
+    margin:20px 0;
+}
+
+/* Navegación */
+.nav-principal{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    margin-bottom:25px;
+}
+
+.logo{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#4CAF50;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link-custom{
+    text-decoration:none;
+    color:#2E7D32;
+    border:2px solid #4CAF50;
+    border-radius:25px;
+    padding:8px 15px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.nav-link-custom:hover{
+    background:#4CAF50;
+    color:white;
+}
+
+/* Título */
+.titulo{
+    text-align:center;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.titulo h1{
+    color:#1B5E20;
+    font-weight:bold;
+}
+
+/* Contenido */
+.tarjeta{
+    background:white;
+    border-left:6px solid #4CAF50;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+}
+
+.tarjeta h3{
+    color:#1B5E20;
+}
+
+.imagen{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.imagen img{
+    width:100%;
+    max-height:700px;
+    object-fit:contain;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:25px;
+    color:#1B5E20;
+    font-weight:bold;
+}
+
